@@ -20,20 +20,9 @@ enableRobotsTXT = true
   ShowAllPagesInArchive = true
   ShowFullTextinRSS = true
 
-  [params.profileMode]
-    enabled = true
-    title = "Geoff Dudgeon"
-    subtitle = "Building things with AI. Product management. Woodworking. Writing."
-    imageUrl = ""
-    imageTitle = ""
-
-    [[params.profileMode.buttons]]
-      name = "Posts"
-      url = "posts/"
-
-    [[params.profileMode.buttons]]
-      name = "Tags"
-      url = "tags/"
+  [params.homeInfoParams]
+    Title = "Geoff Dudgeon"
+    Content = "Building things with AI. Product management. Woodworking. Writing."
 
   [[params.socialIcons]]
     name = "github"
