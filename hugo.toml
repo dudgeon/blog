@@ -2,7 +2,8 @@ baseURL = "https://dudgeon.org/blog/"
 languageCode = "en-us"
 title = "Geoff Dudgeon"
 theme = "PaperMod"
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 enableRobotsTXT = true
 
