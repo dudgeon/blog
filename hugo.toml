@@ -1,0 +1,65 @@
+baseURL = "https://dudgeon.org/blog/"
+languageCode = "en-us"
+title = "Geoff Dudgeon"
+theme = "PaperMod"
+paginate = 10
+
+enableRobotsTXT = true
+
+[params]
+  author = "Geoff Dudgeon"
+  description = "Thoughts on building with AI, product management, and making things."
+  showReadingTime = true
+  showShareButtons = false
+  showPostNavLinks = true
+  showBreadCrumbs = false
+  showCodeCopyButtons = true
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowAllPagesInArchive = true
+  ShowFullTextinRSS = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Geoff Dudgeon"
+    subtitle = "Building things with AI. Product management. Woodworking. Writing."
+    imageUrl = ""
+    imageTitle = ""
+
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "posts/"
+
+    [[params.profileMode.buttons]]
+      name = "Tags"
+      url = "tags/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/dudgeon"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "index.xml"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/blog/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/blog/tags/"
+    weight = 2
+  [[menu.main]]
+    name = "Archives"
+    url = "/blog/archives/"
+    weight = 3
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
+    lineNos = false
