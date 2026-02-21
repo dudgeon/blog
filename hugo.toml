@@ -20,10 +20,6 @@ enableRobotsTXT = true
   ShowAllPagesInArchive = true
   ShowFullTextinRSS = true
 
-  [params.homeInfoParams]
-    Title = "Geoff Dudgeon"
-    Content = "Building things with AI. Product management. Woodworking. Writing."
-
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/dudgeon"
