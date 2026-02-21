@@ -1,5 +1,5 @@
 ---
-title: "Building things with AI. Product management. Woodworking. Writing."
+title: "The best book on managing agents was written about people"
 date: 2026-02-20
 draft: false
 tags: [ai, agents, management, series]
